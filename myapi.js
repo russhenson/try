@@ -1,7 +1,7 @@
 var myapi = {
 	get: function(callback) {
 		var xhr = new XMLHttpRequest();
-		xhr.open('GET', 'http://jsonplaceholder.typicode.com/russhenson/try', true);
+		xhr.open('GET', 'http://jsonplaceholder.typicode.com/posts/1', true);
 
 		xhr.onreadystatechange = function() {
 			if(xhr.readyState == 4) {
@@ -19,7 +19,7 @@ var myapi = {
 
 	post: function(data, callback) {
 		var xhr = new XMLHttpRequest();
-		xhr.open('POST', 'http://jsonplaceholder.typicode.com/russhenson', true);
+		xhr.open('POST', 'http://jsonplaceholder.typicode.com/posts', true);
 
 		xhr.onreadystatechange = function() {
 			if(xhr.readyState == 4) {

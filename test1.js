@@ -29,7 +29,7 @@ describe('MyAPI', function() {
 		this.requests[0].respond(200, { 'Content-Type': 'text/json' }, dataJson);
 	});
 
-	/*
+	
 	it('should send given data as JSON body', function() {
 		var data = { hello: 'world' };
 		var dataJson = JSON.stringify(data);
@@ -47,6 +47,6 @@ describe('MyAPI', function() {
 	
 		this.requests[0].respond(500);
 	});
-*/
+
 
 });
